@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Donald Trump ChatBot</title> <!-- Title --> 
+    <link rel="stylesheet" type="text/css" href="/static/style.css"> <!-- Linking our stylesheets--> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!-- jquery --> 
+  </head>
+
+  <body><!-- Twitter Messaging Layout --> 
+    <h3>Donald Trump.AI</h3><!-- Title --> 
+    <div id="middle"><img src="/static/profile_pictures/trump.jpg" alt="Donald Trump"></div> <!--Profile picture--> 
+    <a href="https://twitter.com/realDonaldTrump" target="_blank"><h1>@realDonaldTrump </h1></a> <!-- Twitter handle --> 
+
+ 
+    <div>
+        <div id="chatbox"> <!--Intro message --> 
+          <p class="botText"><span>Hey, you're speaking to the 45th president of the United States of America.</span></p>
+        </div>
+
+        
+        <div id="userInput"><!-- User input Bar --> 
+          <input id="textInput" type="text" name="msg" placeholder="Start a message">
+          <input id="buttonInput" type="submit" value="Send">
+        </div>
+
+        <script>
+          function getBotResponse() { 
+            //User message
+            var rawText = $("#textInput").val();
+            var userHtml = '<p class="userText"><span>' + rawText + '<div class="userpic"><img src="/static/profile_pictures/nobody.jpg" alt="profile picture"></div> '+'</span> </p>' ;
+            $("#textInput").val("");
+            $("#chatbox").append(userHtml);
+            document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+
+            //Trump Robot message
+            $.get("/get", { msg: rawText }).done(function(data) {
+              var botHtml = '<p class="botText"><span>' + data + '<div class="botpic"><img src="/static/profile_pictures/trump.jpg" alt="Donald Trump"></div> '+ '</span></p>';
+              $("#chatbox").append(botHtml);
+              document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+            });
+          }
+          $("#textInput").keypress(function(e) {
+              if(e.which == 13) {
+                  getBotResponse();
+              }
+          });
+          $("#buttonInput").click(function() {
+            getBotResponse(); //Get response when button is pressed
+          })
+        </script>
+    </div>
+  </body>
+</html>
