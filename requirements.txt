@@ -1,6 +1,6 @@
 # Use pip to install python packages
 # Type in cmd : pip install -r requirements.txt
 
-Flask>=1.0.0
-chatterbot==1.0.0
+Flask>=1.1.1
+chatterbot==1.0.5
 SQLAlchemy==1.2
