@@ -1,8 +1,10 @@
 
-
 ## Description
-You can ask it various questions on topics that you think Trump would know
-money,richness,wealth,iran,china, his father, the election etc.
+Trump Bot is an interactive simulation of a twitter conversation with the President of the USA, Donald Trump.
+You can ask him various questions on topics related to Money,Wealth, His family, Trade deals,Iran,China, World war 3 and anything else that you think Trump would know about.
+
+
+
 
 ## Local Setup:
  1. Ensure that Python, Flask, SQLAlchemy, and ChatterBot are installed (either manually, or run `pip install -r requirements.txt`).
@@ -12,6 +14,7 @@ money,richness,wealth,iran,china, his father, the election etc.
 
 ## Install the required packages:
 Type in cmd : pip install -r requirements.txt
+
 
 ## How to use:
 - Once the chatbot is active
