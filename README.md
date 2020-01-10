@@ -20,16 +20,7 @@ Type in cmd : pip install -r requirements.txt
 - It will reply with the best matched answer.
 
 
-
-
-
-
-I will also provide a video tutorial demo on my youtube channel:
-https://www.youtube.com/channel/UCOUrASPLv0as6m6N5cgQQcA/featured?view_as=subscriber
-
-
-
-Build Process
+## Build Process
 - Train in chatbot in train.py on a corpus of words Donald Trump mostly uses (files).
 - After the bot has finished training, dbsqlite files will be created.
 - Using these files, go to chatbot.py and open terminal
@@ -52,7 +43,7 @@ If you would like to train it yourself then delete the following:
 ## Link
 1.Github Link:
 
-2.Youtube Demo:
+2.Youtube Video Demo: https://www.youtube.com/channel/UCOUrASPLv0as6m6N5cgQQcA/featured?view_as=subscriber
 
 ## Recommended
 - You will need to have pip and atleast Python version 3.7 64 bit to install python packages
