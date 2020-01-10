@@ -1,13 +1,20 @@
 You will need to have pip and atleast Python version 3 to install python packages
 
-Install the required packages:
+## Local Setup:
+ 1. Ensure that Python, Flask, SQLAlchemy, and ChatterBot are installed (either manually, or run `pip install -r requirements.txt`).
+ 2. Run *app.py* with `python app.py`.
+ 3. The demo will be live at [http://localhost:5000/](http://localhost:5000/)
+
+
+
+## Install the required packages:
 Type in cmd : pip install -r requirements.txt
 
-How to use:
-Once the chatbot is active
-You type in a question
-The trump chatbot will analyze the question and based on its trained data
-It will reply with the best matched answer.
+## How to use:
+1.Once the chatbot is active
+2.You type in a question
+3.The trump chatbot will analyze the question and based on its trained data
+4.It will reply with the best matched answer.
 
 You can ask it various questions on topics that you think Trump would know
 money,richness,wealth,iran,china, his father, the election etc.
@@ -34,18 +41,19 @@ If you would like to train it yourself then delete the following:
 
 
 
-Deployment
+## How to Deploy
 
-It will be deployed using Flask which is a framework written in Python used to build web applications.
+1.It will be deployed using Flask which is a framework written in Python used to build web applications.
+2.Simply type in cmd in folder "python chatbot.py" and a development server will be live.
 
 
 Usage
 
 
-Link
-Github Link:
+## Link
+1.Github Link:
 
-Youtube Demo:
+2.Youtube Demo:
 
 
 
