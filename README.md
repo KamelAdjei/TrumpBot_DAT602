@@ -49,6 +49,14 @@ If you would like to train it yourself then delete the following:
 - Simply type in cmd in folder "python chatbot.py" and a development server will be live.
 
 
+## Once it's running, you can ask questions like:
+1.Do you trust news networks?
+2.how much do you earn
+3.is America Racists?
+4.Are you a misogynist?
+5.Tell me a joke
+6.How would you describe your life?
+
 ## Link
 1.Youtube Video Demo: https://www.youtube.com/channel/UCOUrASPLv0as6m6N5cgQQcA/featured?view_as=subscriber
 
@@ -58,4 +66,6 @@ If you would like to train it yourself then delete the following:
 - Ensure your python is installed correctly in PATH
 
 
+## Note
+(Files) folder contains all the corpus that the chatbot was trained on.
 
