@@ -6,6 +6,11 @@ You can ask him various questions on topics related to Money,Wealth, His family,
 ## About
 This project was inspired by Women Reclaiming AI.I designed the chatbot as an accurate representation of how Donald Trump would text in a Twitter conversation.I believe he would lead the conversation with random ,rude and obnoxious words and have an arrogant attitude towards the questions asked.
 
+I used a python library called Chatterbot to generate the responses.ChatterBot uses a selection of machine learning algorithms to produce different types of responses to the user.It starts off with no knowledge of how to communicate.As ChatterBot receives more input the number of responses that it can reply and the accuracy of each response in relation to the input statement increase.
+
+The program selects the closest matching response by searching for the closest matching known statement that matches the input, it then chooses a response from the selection of known responses to that statement.
+
+I initially wanted to make a chatbot similar to the project "The Infinite Guide" which uses an LSTM Recurrent Neural Network to respond, but I chose to rather implement that into my final year project.
 
 ## Local Setup:
  1. Ensure that Python, Flask, SQLAlchemy, and ChatterBot are installed (either manually, or run `pip install -r requirements.txt`).
@@ -45,9 +50,8 @@ If you would like to train it yourself then delete the following:
 
 
 ## Link
-1.Github Link:
+1.Youtube Video Demo: https://www.youtube.com/channel/UCOUrASPLv0as6m6N5cgQQcA/featured?view_as=subscriber
 
-2.Youtube Video Demo: https://www.youtube.com/channel/UCOUrASPLv0as6m6N5cgQQcA/featured?view_as=subscriber
 
 ## Recommended
 - You will need to have pip and atleast Python version 3.7 64 bit to install python packages
