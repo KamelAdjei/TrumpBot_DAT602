@@ -58,7 +58,7 @@ If you would like to train it yourself then delete the following:
 - How would you describe your life?
 
 ## Link
-1.Youtube Video Demo: https://www.youtube.com/channel/UCOUrASPLv0as6m6N5cgQQcA/featured?view_as=subscriber
+1.Youtube Video Demo: https://www.youtube.com/watch?v=fam8RvTTMMs
 
 
 ## Recommended
