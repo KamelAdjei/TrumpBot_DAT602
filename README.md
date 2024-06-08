@@ -3,6 +3,9 @@
 Trump Bot is an interactive simulation of a twitter conversation with the President of the USA, Donald Trump.
 You can ask him various questions on topics related to Money,Wealth, His family, Trade deals,Iran,China, World war 3 and anything else that you think Trump would know about.
 
+## Module
+DAT 602
+
 ## About
 This project was inspired by Women Reclaiming AI.I designed the chatbot as an accurate representation of how Donald Trump would text in a Twitter conversation.I believe he would lead the conversation with random ,rude and obnoxious words and have an arrogant attitude towards the questions asked.
 
